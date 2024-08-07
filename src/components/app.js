@@ -2,7 +2,7 @@ const header = document.getElementById("header");
 
 header.innerHTML = `
       <div class="header">
-        <img src="./assets/main.svg" class="none" id="navBar" />
+        <img src="./src/assets/main.svg" class="none" id="navBar" />
         <div class="logo"></div>
         <button class="none changeColor">☀️</button>
       </div>
@@ -22,40 +22,41 @@ header.innerHTML = `
         <ul class="list">
           <li class="list__item">
             <div class="list__button">
-              <img src="./assets/dashboard.svg" class="list__img" />
-              <a href="#" class="nav__link">Inicio</a>
+              <img src="./src/assets/dashboard.svg" class="list__img" />
+              <a onclick="pagina1()" class="nav__link">Inicio</a>
             </div>
           </li>
 
           <li class="list__item list__item--click">
+
             <div class="list__button list__button--click">
-              <img src="./assets/Docs.svg" class="list__img" />
+              <img src="./src/assets/Docs.svg" class="list__img" />
               <a href="#" class="nav__link">Ejercicios</a>
-              <img src="./assets/arrow.svg" class="list__arrow" />
+              <img src="./src/assets/arrow.svg" class="list__arrow" />
             </div>
 
             <ul class="list__show">
               <li class="list__inside">
-                <a href="#" class="nav__link nav__link--inside">Ejercicio 1</a>
+                <a onclick="pagina2()" class="nav__link nav__link--inside">Ejercicio 1</a>
               </li>
               <li class="list__inside">
-                <a href="#" class="nav__link nav__link--inside">Ejercicio 2</a>
+                <a onclick="pagina3()" class="nav__link nav__link--inside">Ejercicio 2</a>
               </li>
               <li class="list__inside">
-                <a href="#" class="nav__link nav__link--inside">Ejercicio 3</a>
+                <a onclick="pagina4()" class="nav__link nav__link--inside">Ejercicio 3</a>
               </li>
               <li class="list__inside">
-                <a href="#" class="nav__link nav__link--inside">Ejercicio 4</a>
+                <a onclick="pagina5()" class="nav__link nav__link--inside">Ejercicio 4</a>
               </li>
               <li class="list__inside">
-                <a href="#" class="nav__link nav__link--inside">Ejercicio 5</a>
+                <a onclick="pagina6()" class="nav__link nav__link--inside">Ejercicio 5</a>
               </li>
             </ul>
           </li>
 
           <li class="list__item">
             <div class="list__button">
-              <img src="./assets/message.svg" class="list__img" />
+              <img src="./src/assets/message.svg" class="list__img" />
               <a href="#" class="nav__link">Contacto </a>
             </div>
           </li>
