@@ -85,7 +85,7 @@ pagina1();
 
 const pagina2 = () => {
   main.innerHTML = `
-    <section class="bounce-in-top">
+    <section class="bounce-in-top section">
         <h2>Factorial de un numero</h2>
         <div>
           <h3>Prueba</h3>
@@ -98,7 +98,7 @@ const pagina2 = () => {
 };
 const pagina3 = () => {
   main.innerHTML = `
-    <section class="bounce-in-top">
+    <section class="bounce-in-top section">
         <h2>Mayor de un conjunto de arrays</h2>
         <div>
           <h3>Prueba</h3>
@@ -111,7 +111,7 @@ const pagina3 = () => {
 };
 const pagina4 = () => {
   main.innerHTML = `
-    <section class="bounce-in-top">
+    <section class="bounce-in-top section">
         <h2>Ordenar un arreglo</h2>
         <div>
           <h3>Prueba</h3>
@@ -124,7 +124,7 @@ const pagina4 = () => {
 };
 const pagina5 = () => {
   main.innerHTML = `
-    <section class="bounce-in-top">
+    <section class="bounce-in-top section">
         <h2>Filtrar</h2>
         <div>
           <h3>Prueba</h3>
@@ -140,7 +140,7 @@ const pagina5 = () => {
 };
 const pagina6 = () => {
   main.innerHTML = `
-        <section class="bounce-in-top">
+        <section class="bounce-in-top section">
       <h2>Suma</h2>
         <div>
           <h3>Prueba</h3>

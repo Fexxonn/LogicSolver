@@ -29,6 +29,9 @@ body {
   background-size: cover;
   transition: all 1s ease-in-out;
 }
+html {
+  background: var(--Color__background__body-2); 
+}
 .none {
   display: none;
 }
@@ -173,7 +176,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
   color: var(--Color__txt__main);
+
 }
 /*****************************/
 /*****************************/
@@ -233,28 +238,29 @@ main {
 /*****************************/
 /* Ejercicios */
 
-section {
+.section {
   padding-top: 2pc;
   width: 90%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   font-size: 1.4rem;
   gap: 2pc;
+  position: relative;
+  height: 70vh;
 }
 
-section div {
+.section div {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1pc;
 }
-section h2 {
+.section h2 {
   text-align: center;
 }
 
-section input {
+.section input {
   display: block;
   border: none;
   padding: 0;
@@ -271,7 +277,7 @@ section input {
     outline: none;
   }
 }
-section p {
+.section p {
   text-align: center;
   max-width: 600px;
 }
